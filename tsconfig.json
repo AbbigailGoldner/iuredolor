@@ -1,0 +1,19 @@
+{
+	"compilerOptions": {
+		"module": "CommonJS",
+		"target": "ES2017",
+		"outDir": "dist/",
+		"rootDir": "src/",
+		"declaration": true,
+		"declarationDir": "typings",
+		"allowJs": true,
+		"esModuleInterop": true,
+		"importHelpers": true,
+		"resolveJsonModule": true,
+		"baseUrl": ".",
+		"paths": {
+			"typings": ["typings"]
+		}
+	},
+	"exclude": ["dist", "src/lib/__tests__", "jest.config.js", "sample.ts"]
+}
